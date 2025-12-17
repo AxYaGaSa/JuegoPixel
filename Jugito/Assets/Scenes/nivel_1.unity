@@ -155,7 +155,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 9.8
+  m_GravityScale: 5
   m_Material: {fileID: 6200000, guid: 0c015fd2b9810b3498451156519d8360, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -163,9 +163,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &150809670
 SpriteRenderer:
@@ -490,8 +490,8 @@ Transform:
   m_GameObject: {fileID: 1612542816}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.33, y: -0.67, z: -0}
-  m_LocalScale: {x: 0.974155, y: 0.8972061, z: 0.9840049}
+  m_LocalPosition: {x: -0.0007, y: 0.5482, z: -0}
+  m_LocalScale: {x: 1.0040616, y: 1.1408873, z: 0.9840049}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1797198383}
@@ -541,7 +541,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.4375, y: 0.4375, z: 0}
+  m_ChunkCullingBounds: {x: 0.5, y: 0.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -1139,20 +1139,20 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1612542822}
     m_ColliderPaths:
-    - - X: 121160536
-        Y: -14018848
-      - X: -111418984
-        Y: -14018848
-      - X: -111418984
-        Y: -39813524
-      - X: 121160536
-        Y: -39813524
+    - - X: 125507696
+        Y: -17113308
+      - X: -115467080
+        Y: -17113308
+      - X: -115467080
+        Y: -51339928
+      - X: 125507696
+        Y: -51339928
   m_CompositePaths:
     m_Paths:
-    - - {x: 12.116054, y: -1.4018848}
-      - {x: -11.141898, y: -1.4018848}
-      - {x: -11.141898, y: -3.9813523}
-      - {x: 12.116054, y: -3.9813523}
+    - - {x: 12.55077, y: -1.7113308}
+      - {x: -11.546708, y: -1.7113308}
+      - {x: -11.546708, y: -5.1339927}
+      - {x: 12.55077, y: -5.1339927}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0
   m_UseDelaunayMesh: 0

@@ -1,14 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Collections; 
+using System.Collections.Generic; 
 using UnityEngine;
 
-public class control_movimiento : MonoBehaviour
-{
-    public float velocidad;
-    public float fuerzaSalto;
-    public int saltosMaximos;
+public class control_movimiento : MonoBehaviour { 
+    public float velocidad; 
+    public float fuerzaSalto; 
+    public int saltosMaximos; 
     public LayerMask capaSuelo;
-    
+
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private bool mirarDerecha = true;
@@ -40,17 +39,24 @@ public class control_movimiento : MonoBehaviour
         {
             animator.SetBool("isRunning", false );
         }
-        rb.linearVelocity = new Vector2(inputMovimiento * velocidad, rb.linearVelocity.y);
+        rb.velocity = new Vector2(inputMovimiento * velocidad, rb.velocity.y);
         GestionarOrientacion(inputMovimiento);
     }
     bool EstaEnSuelo()
     {
-        RaycastHit2D raycast = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.1f, capaSuelo);
+        // Origen: justo en los pies del personaje
+        Vector2 origen = new Vector2(boxCollider.bounds.center.x, boxCollider.bounds.min.y);
+    
+        // Raycast hacia abajo desde los pies
+        RaycastHit2D raycast = Physics2D.Raycast(origen, Vector2.down, 0.2f, capaSuelo);
+    
         return raycast.collider != null;
     }
+
     void Salto()
     {
-        if(EstaEnSuelo())
+        // Reinicia saltos SOLO si está en suelo y la velocidad vertical es casi cero
+        if (EstaEnSuelo() && Mathf.Abs(rb.velocity.y) < 0.01f)
         {
             saltosRestantes = saltosMaximos;
         }
@@ -58,7 +64,7 @@ public class control_movimiento : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
         {
             saltosRestantes--;
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+            rb.velocity = new Vector2(rb.velocity.x, 0f); // reset vertical
             rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
         }
     }
