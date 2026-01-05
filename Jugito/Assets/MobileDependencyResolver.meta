@@ -1,8 +1,14 @@
 fileFormatVersion: 2
 guid: e7f679112961a0f7f11fdb3f983aed77
 folderAsset: yes
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+timeCreated: 1448926447
+licenseType: Pro
+DefaultImporter:
+>>>>>>> fix-monedas
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 68953a15b7e380d4f90e3e9147e13cf4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3490183525066765373
+    second: personaje_jessi_mona.png_0
+  - first:
+      213: -4558850029518832591
+    second: personaje_jessi_mona.png_1
+  - first:
+      213: 4620331716237550815
+    second: personaje_jessi_mona.png_2
+  - first:
+      213: -7577188506582402192
+    second: personaje_jessi_mona.png_3
+  - first:
+      213: 4783889341495521096
+    second: personaje_jessi_mona.png_4
+  - first:
+      213: -5687621632108833907
+    second: personaje_jessi_mona.png_5
+  - first:
+      213: -9064639184121660753
+    second: personaje_jessi_mona.png_6
+  - first:
+      213: -2311544892633372052
+    second: personaje_jessi_mona.png_7
+  - first:
+      213: -3972547070745512190
+    second: personaje_jessi_mona.png_8
+  - first:
+      213: -723932448629548521
+    second: personaje_jessi_mona.png_9
+  - first:
+      213: 169085413300855447
+    second: personaje_jessi_mona.png_10
+  - first:
+      213: 3280730418268962759
+    second: personaje_jessi_mona.png_11
+  - first:
+      213: 6076335424667017134
+    second: personaje_jessi_mona.png_12
+  - first:
+      213: -9093470338016392832
+    second: personaje_jessi_mona.png_13
+  - first:
+      213: -7909757248576805071
+    second: personaje_jessi_mona.png_14
+  - first:
+      213: 6757271856478653854
+    second: personaje_jessi_mona.png_15
+  - first:
+      213: -2031471600097855184
+    second: personaje_jessi_mona.png_16
+  - first:
+      213: 4643039642685696802
+    second: personaje_jessi_mona.png_17
+  - first:
+      213: -8861483253431750074
+    second: personaje_jessi_mona.png_18
+  - first:
+      213: 8641804641829646028
+    second: personaje_jessi_mona.png_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 396
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb89736390609fc0800000000000000
+      internalID: -3490183525066765373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 392
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c304e4d06bbb0c0800000000000000
+      internalID: -4558850029518832591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 396
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46fc26737be1040800000000000000
+      internalID: 4620331716237550815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 392
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bbbfce23b68d690800000000000000
+      internalID: -7577188506582402192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 392
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f2e9c820ac36240800000000000000
+      internalID: 4783889341495521096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 276
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83535982428111b0800000000000000
+      internalID: -5687621632108833907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 276
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa775540bee33280800000000000000
+      internalID: -9064639184121660753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 292
+        width: 119
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a2830da2ebbefd0800000000000000
+      internalID: -2311544892633372052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 279
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207f1b29c7daed8c0800000000000000
+      internalID: -3972547070745512190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_9
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 279
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a9e06064314f5f0800000000000000
+      internalID: -723932448629548521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 161
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7926f7c9946b85200800000000000000
+      internalID: 169085413300855447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 161
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf7db0feee778d20800000000000000
+      internalID: 3280730418268962759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 165
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf566bffda735450800000000000000
+      internalID: 6076335424667017134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 161
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0894bf628e08dc180800000000000000
+      internalID: -9093470338016392832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 165
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137220ba0b5ea3290800000000000000
+      internalID: -7909757248576805071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 48
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d8720b3f6a6cd50800000000000000
+      internalID: 6757271856478653854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 48
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0397fd8c753cec3e0800000000000000
+      internalID: -2031471600097855184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 61
+        width: 119
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b665484f36f6040800000000000000
+      internalID: 4643039642685696802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 45
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642b0206eefa50580800000000000000
+      internalID: -8861483253431750074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personaje_jessi_mona.png_19
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 45
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccee396198bdde770800000000000000
+      internalID: 8641804641829646028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      personaje_jessi_mona.png_0: -3490183525066765373
+      personaje_jessi_mona.png_1: -4558850029518832591
+      personaje_jessi_mona.png_10: 169085413300855447
+      personaje_jessi_mona.png_11: 3280730418268962759
+      personaje_jessi_mona.png_12: 6076335424667017134
+      personaje_jessi_mona.png_13: -9093470338016392832
+      personaje_jessi_mona.png_14: -7909757248576805071
+      personaje_jessi_mona.png_15: 6757271856478653854
+      personaje_jessi_mona.png_16: -2031471600097855184
+      personaje_jessi_mona.png_17: 4643039642685696802
+      personaje_jessi_mona.png_18: -8861483253431750074
+      personaje_jessi_mona.png_19: 8641804641829646028
+      personaje_jessi_mona.png_2: 4620331716237550815
+      personaje_jessi_mona.png_3: -7577188506582402192
+      personaje_jessi_mona.png_4: 4783889341495521096
+      personaje_jessi_mona.png_5: -5687621632108833907
+      personaje_jessi_mona.png_6: -9064639184121660753
+      personaje_jessi_mona.png_7: -2311544892633372052
+      personaje_jessi_mona.png_8: -3972547070745512190
+      personaje_jessi_mona.png_9: -723932448629548521
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
