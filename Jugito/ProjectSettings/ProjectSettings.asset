@@ -675,7 +675,8 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: APP_UI_EDITOR_ONLY
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -774,11 +775,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 5dd11e1e-926b-4c8e-81f0-5e77624e405e
+  cloudProjectId: 8d929e4c-3411-4cb7-8385-722a63e68189
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Jugito
-  organizationId: andreshernandezavila44
+  organizationId: unity_afa96879e33c7c104fa9
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
