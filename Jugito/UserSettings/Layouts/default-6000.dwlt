@@ -517,7 +517,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 1
+      displayed: 0
       id: Services/Unity Version Control
       index: 6
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -830,34 +830,35 @@ MonoBehaviour:
       m_Data: 53776
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53366
-    - m_Data: 53368
-    - m_Data: 53370
-    - m_Data: 53372
-    - m_Data: 53374
-    - m_Data: 53376
-    - m_Data: 53378
-    - m_Data: 53380
-    - m_Data: 53382
-    - m_Data: 53384
-    - m_Data: 53386
-    - m_Data: 53388
-    - m_Data: 53390
-    - m_Data: 53392
-    - m_Data: 53394
-    - m_Data: 53396
-    - m_Data: 53398
-    - m_Data: 53400
-    - m_Data: 53402
-    - m_Data: 53404
-    - m_Data: 53406
-    - m_Data: 53408
-    - m_Data: 53410
-    - m_Data: 53412
-    - m_Data: 53414
-    - m_Data: 53416
-    - m_Data: 53418
-    - m_Data: 53420
+    - m_Data: 54724
+    - m_Data: 54726
+    - m_Data: 54728
+    - m_Data: 54730
+    - m_Data: 54732
+    - m_Data: 54734
+    - m_Data: 54736
+    - m_Data: 54738
+    - m_Data: 54740
+    - m_Data: 54742
+    - m_Data: 54744
+    - m_Data: 54746
+    - m_Data: 54748
+    - m_Data: 54750
+    - m_Data: 54752
+    - m_Data: 54754
+    - m_Data: 54756
+    - m_Data: 54758
+    - m_Data: 54760
+    - m_Data: 54762
+    - m_Data: 54764
+    - m_Data: 54766
+    - m_Data: 54768
+    - m_Data: 54770
+    - m_Data: 54772
+    - m_Data: 54774
+    - m_Data: 54776
+    - m_Data: 54778
+    - m_Data: 54780
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -890,34 +891,35 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53366
-    - m_Data: 53368
-    - m_Data: 53370
-    - m_Data: 53372
-    - m_Data: 53374
-    - m_Data: 53376
-    - m_Data: 53378
-    - m_Data: 53380
-    - m_Data: 53382
-    - m_Data: 53384
-    - m_Data: 53386
-    - m_Data: 53388
-    - m_Data: 53390
-    - m_Data: 53392
-    - m_Data: 53394
-    - m_Data: 53396
-    - m_Data: 53398
-    - m_Data: 53400
-    - m_Data: 53402
-    - m_Data: 53404
-    - m_Data: 53406
-    - m_Data: 53408
-    - m_Data: 53410
-    - m_Data: 53412
-    - m_Data: 53414
-    - m_Data: 53416
-    - m_Data: 53418
-    - m_Data: 53420
+    - m_Data: 54724
+    - m_Data: 54726
+    - m_Data: 54728
+    - m_Data: 54730
+    - m_Data: 54732
+    - m_Data: 54734
+    - m_Data: 54736
+    - m_Data: 54738
+    - m_Data: 54740
+    - m_Data: 54742
+    - m_Data: 54744
+    - m_Data: 54746
+    - m_Data: 54748
+    - m_Data: 54750
+    - m_Data: 54752
+    - m_Data: 54754
+    - m_Data: 54756
+    - m_Data: 54758
+    - m_Data: 54760
+    - m_Data: 54762
+    - m_Data: 54764
+    - m_Data: 54766
+    - m_Data: 54768
+    - m_Data: 54770
+    - m_Data: 54772
+    - m_Data: 54774
+    - m_Data: 54776
+    - m_Data: 54778
+    - m_Data: 54780
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1616,7 +1618,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 20.142933, y: 2.1136997, z: -0.0018768534}
+    m_Target: {x: -4.722205, y: 0.99655175, z: -0.072645575}
     speed: 2
     m_Value: {x: 20.142933, y: 2.1136997, z: -0.0018768534}
   m_RenderMode: 0
@@ -1668,7 +1670,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.7077891
+    m_Target: 7.784304
     speed: 2
     m_Value: 0.7077891
   m_Ortho:
