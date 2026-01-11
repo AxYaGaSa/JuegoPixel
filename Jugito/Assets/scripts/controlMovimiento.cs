@@ -1,10 +1,12 @@
-using System.Collections; 
-using System.Collections.Generic; 
+using System.Collections;
 using UnityEngine;
 
-public class control_movimiento : MonoBehaviour { 
+public class control_movimiento : MonoBehaviour {
+    private static WaitForSeconds _waitForSeconds0_5 = new WaitForSeconds(0.5f);
+
     public float velocidad; 
     public float fuerzaSalto; 
+    public float fuerzaGolpe;
     public int saltosMaximos; 
     public LayerMask capaSuelo;
 
@@ -12,7 +14,8 @@ public class control_movimiento : MonoBehaviour {
     private BoxCollider2D boxCollider;
     private bool mirarDerecha = true;
     private int saltosRestantes;
-    private Animator animator; 
+    private Animator animator;
+    private bool puedeMoverse = true;
 
     void Start()
     {
@@ -30,6 +33,7 @@ public class control_movimiento : MonoBehaviour {
 
     void Movimiento()
     {
+        if (!puedeMoverse) return;
         float inputMovimiento = Input.GetAxis("Horizontal");
         if(inputMovimiento != 0f)
         {
@@ -73,6 +77,7 @@ public class control_movimiento : MonoBehaviour {
 
         }
     }
+
     void GestionarOrientacion(float inputMovimiento)
     {
         if ((mirarDerecha == true && inputMovimiento < 0) || (mirarDerecha == false && inputMovimiento > 0))
@@ -80,5 +85,35 @@ public class control_movimiento : MonoBehaviour {
             mirarDerecha = !mirarDerecha;
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
+    }
+
+    public void AplicarGolpe()
+    {
+        puedeMoverse = false;
+
+        Vector2 direccionGolpe;
+
+        if (rb.linearVelocity.x > 0)
+        {
+            direccionGolpe = new Vector2(-1, 1);
+        }
+        else
+        {
+            direccionGolpe = new Vector2(1, 1);
+        }
+        rb.AddForce(direccionGolpe * fuerzaGolpe);
+        StartCoroutine(RecuperarControl());
+    }
+
+    IEnumerator RecuperarControl()
+    {
+        yield return _waitForSeconds0_5;
+
+        while (!EstaEnSuelo())
+        {
+            yield return null;
+        }
+
+        puedeMoverse = true;
     }
 }
