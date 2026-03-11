@@ -1,52 +1,34 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+<<<<<<< HEAD
+
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
-    public HUD hud;
-    public int PuntosTotales { get; private set; }
-    private int vidasRestantes = 3;
-    void Awake()
+    public int PuntosTotales { get { return puntosTotales; } }
+    private int puntosTotales;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public void SumarPuntos(int SumaPundos)
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        puntosTotales += SumaPundos;
+    }
+}
+=======
+using TMPro;
+public class GameManager : MonoBehaviour
+{
+    public int PuntosTotales {get { return puntosTotales; } }
+    public TextMeshProUGUI puntosText;
+    private int puntosTotales;
+
+    private void Update()
+    {
+        puntosText.text = " : " + puntosTotales.ToString();
     }
 
     public void AgregarPuntos(int puntos)
     {
-        PuntosTotales += puntos;
-        hud.ActualizarPuntos(PuntosTotales);
-    }
-
-    public void PerderVida()
-    {
-        vidasRestantes -= 1;
-
-        if (vidasRestantes == 0)
-        {
-            SceneManager.LoadScene(0);
-        }
-
-        hud.DesactivarVida(vidasRestantes);
-    }
-
-    public bool RecuperarVida()
-    {
-        if (vidasRestantes == 3) 
-        {
-            return false;
-        }
-        hud.ActivarVida(vidasRestantes);
-        vidasRestantes += 1;
-        return true;
+        puntosTotales += puntos;
     }
 }
 
 
+>>>>>>> fix-monedas
