@@ -38,7 +38,6 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.uielements": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
-<<<<<<< HEAD
       },
       "url": "https://packages.unity.com"
     },
@@ -51,8 +50,6 @@
         "com.unity.ai.generators": "1.0.0-pre.12",
         "com.unity.settings-manager": "2.0.1",
         "com.unity.modules.uielements": "1.0.0"
-=======
->>>>>>> fix-monedas
       },
       "url": "https://packages.unity.com"
     },
@@ -104,7 +101,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
     "com.unity.ai.generators": {
       "version": "1.0.0-pre.12",
       "depth": 1,
@@ -131,10 +127,6 @@
     },
     "com.unity.ai.toolkit": {
       "version": "1.0.0-pre.12",
-=======
-    "com.unity.burst": {
-      "version": "1.8.25",
->>>>>>> fix-monedas
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -244,16 +236,6 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
-<<<<<<< HEAD
-=======
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.2",
->>>>>>> fix-monedas
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -300,8 +282,6 @@
     },
     "com.unity.searcher": {
       "version": "4.9.4",
-<<<<<<< HEAD
-=======
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -325,14 +305,6 @@
       "dependencies": {
         "com.unity.services.core": "1.15.1"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.settings-manager": {
-      "version": "2.1.1",
->>>>>>> fix-monedas
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {

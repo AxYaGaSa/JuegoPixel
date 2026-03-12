@@ -31,19 +31,19 @@ public class Character_Controller : MonoBehaviour
         if (animator != null) {
             animator.SetBool("isRunning", movimientoInput.x != 0f);
         }
-        rb.velocity = new Vector2(movimientoInput.x * velocidad, rb.velocity.y); // Corregido: velocity, no linearVelocity
+        rb.linearVelocity = new Vector2(movimientoInput.x * velocidad, rb.linearVelocity.y); // Corregido: velocity, no linearVelocity
         GestionarOrientacion(movimientoInput.x);
     }
 
     void Salto()
     {
-        if (EstaEnSuelo() && Mathf.Abs(rb.velocity.y) < 0.01f) { // Corregido: velocity
+        if (EstaEnSuelo() && Mathf.Abs(rb.linearVelocity.y) < 0.01f) { // Corregido: velocity
             saltosRestantes = saltosMaximos;
         }
 
         if (saltarInput && saltosRestantes > 0) {
             saltosRestantes--;
-            rb.velocity = new Vector2(rb.velocity.x, 0f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
             if (animator != null) animator.SetTrigger("jumpTrigger");
             saltarInput = false;

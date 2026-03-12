@@ -1,20 +1,14 @@
 {
-  "dependencies": {
+    "dependencies": {
     "com.unity.2d.animation": "13.0.2",
     "com.unity.2d.aseprite": "3.0.1",
-<<<<<<< HEAD
     "com.unity.2d.enhancers": "1.0.0",
-=======
->>>>>>> fix-monedas
     "com.unity.2d.psdimporter": "12.0.1",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.spriteshape": "13.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.2d.tilemap.extras": "6.0.1",
-<<<<<<< HEAD
     "com.unity.ai.inference": "2.4.1",
-=======
->>>>>>> fix-monedas
     "com.unity.cinemachine": "3.1.5",
     "com.unity.collab-proxy": "2.10.2",
     "com.unity.ide.rider": "3.0.38",
@@ -22,10 +16,7 @@
     "com.unity.inputsystem": "1.16.0",
     "com.unity.multiplayer.center": "1.0.1",
     "com.unity.render-pipelines.universal": "17.3.0",
-<<<<<<< HEAD
-=======
     "com.unity.services.levelplay": "9.2.0",
->>>>>>> fix-monedas
     "com.unity.test-framework": "1.6.0",
     "com.unity.timeline": "1.8.9",
     "com.unity.ugui": "2.0.0",
@@ -64,5 +55,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+    }
 }
