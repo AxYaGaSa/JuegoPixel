@@ -11,6 +11,7 @@ public class personaje : MonoBehaviour
 
     private bool estaEnSuelo;
     private bool recibioDano;
+    private bool atacando;
     private Rigidbody2D rb;
 
     public Animator animator;
@@ -22,6 +23,33 @@ public class personaje : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        if (!atacando)
+        {
+            Movimiento();
+
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRaycast, capaSuelo);
+            estaEnSuelo = hit.collider != null;
+
+            if (estaEnSuelo && Input.GetKeyDown(KeyCode.Space) && !recibioDano)
+            {
+                rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.J) && !atacando && estaEnSuelo)
+        {
+            Atacar();
+        }
+        else if (Input.GetKeyUp(KeyCode.J) && atacando)
+        {
+            DetenerAtaque();
+        }
+
+        Animaciones();
+    }
+
+    public void Movimiento()
     {
         float velocidadX = Input.GetAxis("Horizontal") * velocidad * Time.deltaTime;
 
@@ -42,17 +70,13 @@ public class personaje : MonoBehaviour
         {
             transform.position = new Vector3(velocidadX + posicion.x, posicion.y, posicion.z);
         }
+    }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRaycast, capaSuelo);
-        estaEnSuelo = hit.collider != null;
-        
-        if (estaEnSuelo && Input.GetKeyDown(KeyCode.Space) && !recibioDano)
-        {
-            rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
-        }
-
+    public void Animaciones()
+    {
         animator.SetBool("EnSuelo", estaEnSuelo);
         animator.SetBool("recibeDanio", recibioDano);
+        animator.SetBool("Atacando", atacando);
     }
 
     public void RecibirDano(Vector2 direccion, int cantidadDano)
@@ -69,6 +93,16 @@ public class personaje : MonoBehaviour
     {
         recibioDano = false;
         rb.linearVelocity = Vector2.zero;
+    }
+
+    public void Atacar()
+    {
+        atacando = true;
+    }
+
+    public void DetenerAtaque()
+    {
+        atacando = false;
     }
 
     void OnDrawGizmos()
