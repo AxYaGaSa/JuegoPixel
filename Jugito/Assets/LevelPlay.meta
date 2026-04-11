@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Jugito/Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+guid: 375e9665e94080343aec4f55aff3ebfa
+========
 guid: a2e8fc2888557814e9ccaa2f0750c57d
 folderAsset: yes
+>>>>>>>> fix-monedas:Jugito/Assets/LevelPlay.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

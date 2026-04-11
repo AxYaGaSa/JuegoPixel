@@ -1,51 +1,19 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using TMPro;
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
-    public HUD hud;
-    public int PuntosTotales { get; private set; }
-    private int vidasRestantes = 3;
-    void Awake()
+    public int PuntosTotales {get { return puntosTotales; } }
+    public TextMeshProUGUI puntosText;
+    private int puntosTotales;
+
+    private void Update()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        puntosText.text = " : " + puntosTotales.ToString();
     }
 
     public void AgregarPuntos(int puntos)
     {
-        PuntosTotales += puntos;
-        hud.ActualizarPuntos(PuntosTotales);
-    }
-
-    public void PerderVida()
-    {
-        vidasRestantes -= 1;
-
-        if (vidasRestantes == 0)
-        {
-            SceneManager.LoadScene(0);
-        }
-
-        hud.DesactivarVida(vidasRestantes);
-    }
-
-    public bool RecuperarVida()
-    {
-        if (vidasRestantes == 3) 
-        {
-            return false;
-        }
-        hud.ActivarVida(vidasRestantes);
-        vidasRestantes += 1;
-        return true;
+        puntosTotales += puntos;
     }
 }
 
